@@ -1,0 +1,24 @@
+.ao-path-quiz fieldset {
+    margin: 0 2px;
+    padding: 0.35em 0.75em 0.8em;
+    border: 2px groove #D3E9F0;
+    border-radius: 8px;
+    box-shadow: 2px 2px 20px -10px #000;
+    margin-top: 1.5em;
+    
+    background-color: #EEE;
+    display: none;
+}
+
+fieldset.ao-path-quiz-active {
+    background-color: #FFF;
+}
+
+.ao-path-quiz fieldset legend {
+    font-size: 1.35em;
+}
+
+.ao-path-quiz fieldset input[type=radio] {
+    vertical-align: middle;
+    margin: 8px;
+}
