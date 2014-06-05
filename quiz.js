@@ -30,7 +30,7 @@ var funcs = {
 			.addClass("ao-path-quiz-radio")
 			.prop("name","path-quiz-question-" + num)
 			.prop("id","path-quiz-question-" + num + i)
-			.prop("value",n).text(next).appendTo(container)
+			.prop("value",n).appendTo(container) // .text(next)
 			.click(this.displayNext.bind(this,next));
 		    var label = jQuery("<label>").prop("for","path-quiz-question-" + num + i)
 			.text(this.data.answers[n].text).appendTo(container);
