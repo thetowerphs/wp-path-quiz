@@ -1,4 +1,3 @@
-
 function PathQuiz(jq, data, url) {
     this.dataURL = url;
     this.el = jQuery(jq).addClass("ao-path-quiz");
@@ -38,7 +37,7 @@ var funcs = {
 	    }
 	} else {
 	    var res = this.data.results[num];
-	    title.text("You are: " + res.name);
+	    title.text(res.name);
 	    jQuery("<p>").text(res.blurb).appendTo(q);
 	}
 	q.appendTo(this.el);
